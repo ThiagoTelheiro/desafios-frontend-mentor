@@ -1,3 +1,3 @@
 Desafios Frontend Mentor
 <br>
-<a href ="file:///C:/Users/thiag/OneDrive/Documents/desafios-frontend-mentor/componente-de-codigoqr/index.html">Componente de código QR</a>
+<a href ="https://github.com/ThiagoTelheiro/desafios-frontend-mentor/tree/main/componente-de-codigoqr">Componente de código QR</a>
