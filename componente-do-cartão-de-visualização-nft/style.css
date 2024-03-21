@@ -35,7 +35,7 @@ main {
     box-shadow: 5px 5px 5px var(--Very-dark-blue1);
 }
 
-.equilibrium img {
+.equilibrium img  {
     width: 300px;
     border-radius: 10px;
 }
