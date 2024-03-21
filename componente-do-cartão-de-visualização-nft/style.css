@@ -2,8 +2,117 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+    :root {
+        --White: hsl(0, 0%, 100%);
+        --Cyan: hsl(178, 100%, 50%);
+        --Soft-blue: hsl(215, 51%, 70%);
+        --Very-dark-blue1: hsl(217, 54%, 11%);
+        --Very-dark-blue2: hsl(216, 50%, 16%);
+        --Very-dark-blue3: hsl(215, 32%, 27%);
+
+    }
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    background-color: var(--Very-dark-blue1);
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: var(--Very-dark-blue2);
+    width: 300px;
+    height: 565px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--Very-dark-blue1);
+}
+
+.equilibrium img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info h1 {
+    color: var(--White);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.info p {
+    color: rgba(255, 255, 255, 0.577);
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.eth {
+    color: var(--Cyan);
+    display: flex;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.eth p {
+    margin-left: 5px;
+}
+
+.data {
+    color: rgba(255, 255, 255, 0.577);
+    display: flex;
+
+}
+
+.data p {
+    margin-left: 5px;
+}
+
+.avatar {
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.529);
+    align-items: center;
+}
+
+.avatar img {
+    width: 35px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.avatar p {
+    color: rgba(255, 255, 255, 0.577);
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.avatar p .nome {
+    color: var(--White);
+
+}
+footer {
+    display: inline;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 700px;
+    color: var(--White);
 }
 
