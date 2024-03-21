@@ -7,35 +7,3 @@
     padding: 0px;
 }
 
-body {
-    background-color: hsl(217, 54%, 11%);
-    font-family:"Outfit";
-    color: white;
-}
-
-main {
-    background-color: hsl(216, 50%, 16%);
-    width: 350px;
-    height: 700px;
-    padding: 30px;
-}
-
-.equilibrium {
-    width: 350px;
-    height: 350px;
-}
-
-#descricao h1 {
-    margin-top: 20px;
-    font-weight: 400;
-}
-
-#descricao p {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-
-
