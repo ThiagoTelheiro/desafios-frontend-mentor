@@ -23,14 +23,23 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--Wenge-Brown);
+    background-color: #f3e5d8;
 }
 
 main {
     background-color: var(--White);
     width: 650px;
+    height: 1625px;
     padding: 42.5px;
     border-radius: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
 }
 
 .omelette {
@@ -40,8 +49,8 @@ main {
 }
 
 .titulo h1 {
-    margin-top: 40px;
-    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-bottom: 25px;
     font-size: 2.5em;
     font-family: var(--font-Young-Serif);
     font-weight: 500;
@@ -54,10 +63,11 @@ main {
 }
 
 .preparacao {
-    background-color: #7b284f10;
-    height: 180px;
-    width: 650px;
+    background-color: #7b284f17;
+    height: 130px;
+    width: 590px;
     border-radius: 15px;
+    padding: 25px 20px;
 }
 
 .preparacao h2 {
@@ -65,3 +75,118 @@ main {
     font-size: 1.3em;
     color: #7b284f;
 }
+
+.preparacao ul {
+    font-family: var(--font-Outfit);
+    font-size: .9em;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.preparacao ::marker {
+    color: var(--Dark-Raspberry);
+}
+
+.preparacao .dados-preparacao {
+    margin-left: 15px;
+}
+
+.ingredientes {
+    font-family: var(--font-Young-Serif);
+}
+
+.ingredientes h3 {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--Nutmeg);
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.ingredientes ul {
+    font-family: var(--font-Outfit);
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.ingredientes ::marker {
+    color: var(--Nutmeg);
+}
+
+.ingredientes .dados-ingredientes {
+    margin-left: 10px;
+}
+
+.instrucoes {
+    margin-top: 30px;
+}
+
+.instrucoes h3 {
+    font-family: var(--font-Young-Serif);
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--Nutmeg);
+    margin-bottom: 25px;
+}
+
+.instrucoes ol {
+    font-family: var(--font-Outfit);
+    font-size: .9em;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.instrucoes ::marker {
+    color: var(--Nutmeg);
+    font-weight: 900;
+}
+
+.instrucoes li {
+    margin-bottom: 15px;
+}
+
+.instrucoes .dados-instrucoes {
+    margin-left: 15px;
+}
+
+.nutri {
+    margin-top: 30px;
+}
+
+.nutri h3 {
+    font-family: var(--font-Young-Serif);
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--Nutmeg);
+    margin-bottom: 20px;
+}
+
+.nutri .info-nutri {
+    font-family: var(--font-Outfit);
+    font-size: .9em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.nutri .info-dados {
+    font-family: var(--font-Outfit);
+    font-size: .9em;
+    font-weight: 500;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.nutri .dados-nutri {
+    font-weight: 900;
+    color: var(--Nutmeg);
+    margin-left: 250px;
+    text-align: center;
+}
+
