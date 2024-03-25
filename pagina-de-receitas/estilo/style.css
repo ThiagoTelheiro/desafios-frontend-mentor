@@ -29,7 +29,7 @@ body {
 main {
     background-color: var(--White);
     width: 650px;
-    height: 1625px;
+    height: 1640px;
     padding: 42.5px;
     border-radius: 20px;
     margin: auto;
@@ -63,10 +63,11 @@ ol {
     margin-bottom: 30px;
     font-family: var(--font-Outfit);
     font-weight: 500;
+    color: var(--Wenge-Brown);
 }
 
 .preparacao {
-    background-color: #7b284f17;
+    background-color: #ff007711;
     height: 130px;
     width: 590px;
     border-radius: 15px;
@@ -83,6 +84,7 @@ ol {
     font-family: var(--font-Outfit);
     font-size: .9em;
     font-weight: 500;
+    color: var(--Wenge-Brown);
     margin-top: 15px;
     margin-left: 10px;
     line-height: 30px;
@@ -94,6 +96,7 @@ ol {
 
 .preparacao .dados-preparacao {
     margin-left: 15px;
+    font-weight: 800;
 }
 
 .ingredientes {
@@ -112,6 +115,7 @@ ol {
     font-family: var(--font-Outfit);
     font-size: .9em;
     font-weight: 500;
+    color: var(--Wenge-Brown);
     line-height: 30px;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -141,6 +145,7 @@ ol {
     font-family: var(--font-Outfit);
     font-size: .9em;
     font-weight: 500;
+    color: var(--Wenge-Brown);
     margin-left: 10px;
     margin-bottom: 30px;
     text-align: justify;
@@ -157,6 +162,7 @@ ol {
 
 .instrucoes .dados-instrucoes {
     margin-left: 15px;
+    font-weight: 800;
 }
 
 .instrucoes span {
@@ -167,7 +173,7 @@ ol {
     margin-top: 30px;
 }
 
-.nutri h3 {
+.nutri h3{
     font-family: var(--font-Young-Serif);
     font-size: 1.8em;
     font-weight: 500;
@@ -179,21 +185,45 @@ ol {
     font-family: var(--font-Outfit);
     font-size: .9em;
     font-weight: 500;
+    color: var(--Wenge-Brown);
     margin-bottom: 20px;
 }
 
-.nutri .info-dados {
+.dados-nutri {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dados-nutri td {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.705);
+    padding: 13px;
+} 
+
+.dados-nutri .nomes-nutri {
     font-family: var(--font-Outfit);
     font-size: .9em;
     font-weight: 500;
-    padding: 15px;
-    margin-left: 10px;
+    color: var(--Wenge-Brown);
 }
 
-.nutri .dados-nutri {
-    font-weight: 900;
+.dados-nutri .num-nutri {
+    font-size: .9em;
+    font-weight: 750;
     color: var(--Nutmeg);
-    margin-left: 250px;
-    text-align: center;
+}
+
+.dados-nutri .nomes-nutri2 {
+    font-family: var(--font-Outfit);
+    font-size: .9em;
+    font-weight: 500;
+    color: var(--Wenge-Brown);
+    border: none;
+}
+
+.dados-nutri .num-nutri2 {
+    font-size: .9em;
+    font-weight: 750;
+    color: var(--Nutmeg);
+    border: none;
 }
 
