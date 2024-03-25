@@ -8,4 +8,4 @@ Desafios Frontend Mentor
 <br>
 <a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/componente-do-cart%C3%A3o-de-visualiza%C3%A7%C3%A3o-nft/index.html">Componente do Cartão de Visualização</a>
 <br>
-<a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/pagina-de-receitas/index.html"> Págona de receitas</a>
+<a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/pagina-de-receitas/index.html"> Página de receitas</a>
