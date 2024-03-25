@@ -32,6 +32,9 @@ main {
     height: 1625px;
     padding: 42.5px;
     border-radius: 20px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 ul {
@@ -154,6 +157,10 @@ ol {
 
 .instrucoes .dados-instrucoes {
     margin-left: 15px;
+}
+
+.instrucoes span {
+    margin-left: 30px;
 }
 
 .nutri {
