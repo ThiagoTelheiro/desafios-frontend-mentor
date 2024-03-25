@@ -7,4 +7,5 @@ Desafios Frontend Mentor
 <a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/perfil-de-links-sociais/index.html#l">Perfil de links sociais</a>
 <br>
 <a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/componente-do-cart%C3%A3o-de-visualiza%C3%A7%C3%A3o-nft/index.html">Componente do Cartão de Visualização</a>
-
+<br>
+<a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/pagina-de-receitas/index.html"> Págona de receitas</a>
