@@ -33,8 +33,8 @@ main {
     padding: 42.5px;
     border-radius: 20px;
     margin: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 125px;
+    margin-bottom: 125px;
 }
 
 ul {
@@ -67,7 +67,7 @@ ol {
 }
 
 .preparacao {
-    background-color: #ff007711;
+    background-color: #ff00770b;
     height: 130px;
     width: 590px;
     border-radius: 15px;
