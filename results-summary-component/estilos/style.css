@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --Light-red: #ff5757;
+    --Orangey-yellow: #ffb01f;
+    --Green-teal: #00bd91;
+    --Cobalt-blue: #1125d4;
+    --Light-slate-blue: #7857ff;
+    --Light-royal-blue: #2e2be9;
+    --Violet-blue: #4e21ca;
+    --Persian-blue: #2421ca00;
+    --White: #ffffff;
+    --Pale-blue: #ebf1ff;
+    --Light-lavender: #c8c7ff;
+    --Dark-gray-blue: #303b5a;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-Hanken-Grotesk: "Hanken Grotesk";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
