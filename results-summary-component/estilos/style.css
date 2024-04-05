@@ -117,9 +117,11 @@ main {
 .lista {
     display: flex;
     flex-direction: column;
+    font-weight: 600;
 }
 
 .lista .f-1 {
+    display: flex;
     background-color: #ff575712;
     color: var(--Light-red);
     width: 288px;
@@ -130,7 +132,19 @@ main {
     margin-left: 35px;
 }
 
+.f-1 img {
+    margin-left: 15px;
+}
+
+.f-1 p {
+    font-size: 1.1em;
+    margin-left: 10px;
+    align-self: center;
+    
+}
+
 .lista .f-2 {
+    display: flex;
     background-color: #ffb11f12;
     color: var(--Orangey-yellow);
     width: 288px;
@@ -140,7 +154,19 @@ main {
     margin-left: 35px;
 }
 
+.f-2 img {
+    margin-left: 15px;
+}
+
+.f-2 p {
+    font-size: 1.1em;
+    margin-left: 10px;
+    align-self: center;
+    
+}
+
 .lista .f-3 {
+    display: flex;
     background-color: #00bd9112;
     color: var(--Green-teal);
     width: 288px;
@@ -150,14 +176,53 @@ main {
     margin-left: 35px;
 }
 
+.f-3 img {
+    margin-left: 15px;
+}
+
+.f-3 p {
+    margin-left: 10px;
+    align-self: center;
+    
+}
+
 .lista .f-4 {
-    background-color: #1124d422;
+    display: flex;
+    background-color: #1124d410;
     color: var(--Cobalt-blue);
     width: 288px;
     height: 55px;
     border-radius: 10px;
     margin-bottom: 40px;
     margin-left: 35px;
+}
+
+.f-4 img {
+    margin-left: 15px;
+}
+
+.f-4 p {
+    margin-left: 10px;
+    align-self: center;
+    
+}
+
+.num1 {
+    color: var(--Dark-gray-blue);
+    margin-left: 85px;
+}
+
+.num2 {
+    color: var(--Light-lavender);
+}
+
+.num3 {
+    color: var(--Dark-gray-blue);
+    margin-left: 105px;
+}
+
+.num4 {
+    color: var(--Light-lavender);
 }
 
 button {
