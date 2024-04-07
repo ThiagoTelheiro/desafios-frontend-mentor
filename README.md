@@ -13,4 +13,6 @@ Desafios Frontend Mentor
 <a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/order-summary-component/index.html#"> Componente de resumo do pedido</a>
 <br>
 <a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/product-preview-card-component/index.html"> Componente do cartão de visualização do produto </a>
+<br>
+<a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/results-summary-component/index.html"> Componente de resumo de resultados </a>
 
