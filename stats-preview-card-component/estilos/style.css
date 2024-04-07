@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --Very-dark-blue: #090b1a;
+    --Dark-desaturated-blue: #1b1938;
+    --Soft-violet: rgb(170, 92, 219);
+    --White: #ffffff;
+    --Slightly-transparent-white: #ffffffbf;
+    --Slightly-transparent-white: #ffffff99;
+
+    --font-pafrao: Arial, Helvetica, sans-serif;
+    --font-Inter:"Inter";
+    --font-Lexend-Deca: "Lexend Deca";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Very-dark-blue);
+    font-family: var(--font-pafrao);
+}
+
+.conteiner {
+    display: flex;
+    height: 446px;
+    width: 1110px;
+}
+
+.info {
+    background-color: var(--Dark-desaturated-blue);
+    height: 446px;
+    width: 570px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.info h1 {
+    font-family: var(--font-Inter);
+    font-size: 2em;
+    color: var(--White);
+    margin: 78px 121px 32px 72px;
+}
+
+.info h1 span {
+    color: var(--Soft-violet);
+}
+
+.info p {
+    font-family: var(--font-Inter);
+    font-size: .9em;
+    color: var(--Slightly-transparent-white);
+    line-height: 25px;
+    margin: 0px 153px 80px 72px ;
+}
+
+.info .items {
+    display: flex;
+    margin: 0px  153px 0px 72px; 
+    font-family: var(--font-Inter);
+    color: var(--White);
+}
+
+.info .items .f-1, .f-2, .f-3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-right: 45px;
+} 
+
+.info .items .f-1 span, .f-2 span, .f-3 span {
+    display: flex;
+    flex-direction: column;
+    font-size: .4em;
+    font-weight: 400;
+    color: var(--Slightly-transparent-white);
+    margin-top: 5px;
+    width: 80px;
+}
+
+.imagem {
+    background: linear-gradient(
+        rgba(170, 92, 219, 0.633),rgba(170, 92, 219, 0.633)
+        ),
+        url(../images/image-header-desktop.jpg);
+        height: 446px;
+        width: 540px;
+        border-radius: 0px 8px 8px 0px;
+}
