@@ -17,4 +17,6 @@ Desafios Frontend Mentor
 <a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/results-summary-component/index.html"> Componente de resumo de resultados </a>
 <br>
 <a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/stats-preview-card-component/index.html"> Componente do cartão de visualização de estatísticas </a>
+<br> 
+<a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/3-column-preview-card-component/index.html"> Componente de cartão de visualização de três colunas </a>
 
