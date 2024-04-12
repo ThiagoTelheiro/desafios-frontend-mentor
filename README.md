@@ -21,4 +21,6 @@ Desafios Frontend Mentor
 <a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/3-column-preview-card-component/index.html"> Componente de cartão de visualização de três colunas </a>
 <br>
 <a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/huddle-landing-page-with-a-single-introductory-section/index.html"> Página de destino do Huddle com uma única seção introdutória </a>
+<br>
+<a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/profile-card-component/index.html"> Profile card component </a>
 
