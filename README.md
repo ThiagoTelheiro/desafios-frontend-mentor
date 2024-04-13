@@ -23,4 +23,6 @@ Desafios Frontend Mentor
 <a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/huddle-landing-page-with-a-single-introductory-section/index.html"> Página de destino do Huddle com uma única seção introdutória </a>
 <br>
 <a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/profile-card-component/index.html"> Profile card component </a>
+<br>
+<a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/single-price-grid-component/index.html"> Componente de grade de preço único </a>
 
