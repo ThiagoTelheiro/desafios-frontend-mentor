@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --Cyan: #2ab2af;
+    --Bright-Yellow: #c0df34;
+    --Light-Gray: #e5eff5;
+    --Grayish-Blue: #98a6bd;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-Karla: "Karla";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Light-Gray);
+    font-family: var(--font-padrao);
+}
+
+main {
+    font-family: var(--font-Karla);
+    background-color: white;
+    width: 634px;
+    height: 475px;
+    border-radius: 8px;
+}
+
+.info h1 {
+    font-size: 1.7em;
+    color: var(--Cyan);
+    margin: 46px 0px 25px 40px;
+}
+
+.info .days {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--Bright-Yellow);
+    margin: 0px 0px 13px 40px;
+}
+
+.info .about {
+    font-size: 1em;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px 60px 48px 40px;
+}
+
+.info2 {
+    display: flex;
+}
+
+.info2-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Cyan);
+    width: 317px;
+    height: 259px;
+    border-radius: 0px 0px 0px 8px;
+}
+
+.info2-1 h2 {
+    font-size: 1.1em;
+    color: var(--Light-Gray);
+    margin: 40px 0px 20px 40px;
+}
+
+.info2-1 .num {
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--Light-Gray);
+    margin: 0px 0px 0px 40px;
+}
+
+.info2-1 .num span {
+    align-self: center;
+    color: rgba(245, 245, 245, 0.575);
+    font-size: .5em;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.info2-1 .access {
+    color: var(--Light-Gray);
+    margin: 10px 0px 0px 40px;
+}
+
+.info2-1 button {
+    align-self: center;
+    background-color: var(--Bright-Yellow);
+    width: 237px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin: 30px 0px 0px 0px;   
+}
+
+.info2-1 button:hover {
+    transform: scale(1.05);
+    transition-duration: .4s;
+}
+
+.info2-2 {
+    background-color:#2ab2b0c6;
+    width: 317px;
+    height: 259px;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.info2-2 h2 {
+    font-size: 1.1em;
+    color: var(--Light-Gray);
+    margin: 40px 0px 20px 40px;
+}
+
+.info2-2 p {
+    font-size: .9em;
+    color: var(--Light-Gray);
+    line-height: 25px;
+    margin: 0px 80px 0px 40px;
+}
