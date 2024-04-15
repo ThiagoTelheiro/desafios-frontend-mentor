@@ -8,50 +8,40 @@
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D5E1EF;
+    font-family: "Outfit";
 }
 
 main {
     background-color: white;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    width: 355px;
-    padding: 20px;
-    border-radius: 30px;
+    width: 288px;
+    height: 465px;
+    border-radius: 20px;
+    padding: 16px;
 }
 
-img {
-    width: 355px;
-    border-radius: 20px;
+main img {
+    width: 288px;
+    border-radius: 10px;
 }
 
 main h1 {
-    color: hsl(218, 44%, 22%);
-    font-size: 1.9em;
+    font-size: 1.4em;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    color: #1F314F;
+    margin-top: 24px;
+    width: 288px;
+    height: 56px;
 }
 
 main p {
-    color: hsl(220, 15%, 55%);
+    margin: 16px 16px 0px 16px;
     text-align: center;
-    font-size: 1.3em;
-    margin-bottom: 30px;
-}
-
-footer {
-    font-weight: 700;
-    text-align: center;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: #7D889E;
+    width: 256px;
+    height: 57px;
 }
