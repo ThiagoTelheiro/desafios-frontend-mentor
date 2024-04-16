@@ -9,7 +9,7 @@
             color: white;
         }
     </style>
-
+</head>
 <body>
     <h1>Desafios Frontend Mentor</h1>
      <ul>
