@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafios Frontend Mentor</title>
-</head>
 <body>
     <h1>Desafios Frontend Mentor</h1>
      <ul>
