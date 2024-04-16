@@ -1,4 +1,4 @@
-Desafios Frontend Mentor
+<h1>Desafios Frontend Mentor</h1>
 <br>
 <a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/componente-de-codigoqr/index.html">Componente de código QR</a>
 <br>
