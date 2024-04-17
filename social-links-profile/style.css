@@ -2,77 +2,97 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+:root {
+    --Green: #c5f82a;
+    --White: #ffffff;
+    --Grey: #333333;
+    --Dark-Grey: #1f1f1f;
+    --Off-Black: #141414;
+
+    --font-Inter:"Inter";
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Off-Black);
+    font-family: var(--font-Inter);
 }
 
 main {
-    background-color: hsl(0, 0%, 12%);
-    width: 310px;
-    padding: 40px;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    background-color: var(--Dark-Grey);
+    width: 380px;
+    height: 610px;
+    border-radius: 12px;
+    color: white;
 }
 
-img {
-    width: 70px;
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .avatar {
+    align-self: center;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
-    position: relative;
-    left:40%;
+    margin-top: 38px;
 }
 
-h1 {
-    color: white;
-    font-size: 1.8em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+.info h1 {
+    font-size: 1.5em;
     font-weight: 400;
+    margin-top: 30px;
 }
 
-.loc {
-    color: hsl(75, 94%, 57%);
-    text-align: center;
-    margin-bottom: 20px;
+.info h2 {
+    font-size: .8em;
+    color: var(--Green);
+    margin-top: 15px;
+}
+
+.info p {
+    font-size: .8em;
+    color: var(--White);
+    margin-top: 30px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.links ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Grey);
+    width: 304px ;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: .8em;
+    color: white;
     font-weight: 600;
-    font-size: 1em;
-}
-
-.front {
-    color: rgba(255, 255, 255, 0.823);
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: .9em;
-}
-
-a {
     text-decoration: none;
-    color: white;
 }
 
-.git, .fronte, .linkedin, .twitter, .insta {
-    background-color: hsl(0, 0%, 20%);
-    padding: 15px;
-    border-radius: 7px;
-    text-align: center;
-    font-size: .9em;
-    font-weight: 700;
-}
-
-footer {
-    color: white;
-    text-align: center;
-    font-size: .9em;
-}
-
-footer a:hover {
-    color: hsl(75, 94%, 57%);
+.links ul li a:hover {
+    background-color: var(--Green);
+    color: var(--Grey);
+    font-weight: 800;
+    transition-duration: .4s;
 }
