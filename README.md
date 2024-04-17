@@ -9,13 +9,11 @@
         <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/order-summary-component/index.html#">Order summary component</a></li>
         <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/product-preview-card-component/index.html">Product preview card component</a></li>
         <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/results-summary-component/index.html">Results summary component</a></li>
-        <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/results-summary-component/index.html">Stats preview card component</a></li>
-        <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/results-summary-component/index.html">3 column preview card component</a></li>
-        <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/3-column-preview-card-component/index.html"> Componente de cartão de visualização de três colunas </a></li>
-        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/huddle-landing-page-with-a-single-introductory-section/index.html"> Página de destino do Huddle com uma única seção introdutória </a></li>
+        <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/stats-preview-card-component/index.html">Stats preview card component</a></li>
+        <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/3-column-preview-card-component/index.html">3 column preview card component</a></li>
+        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/huddle-landing-page-with-a-single-introductory-section/index.html">Huddle landing page with a single introductory section</a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/profile-card-component/index.html"> Profile card component </a></li>
-        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/single-price-grid-component/index.html"> Componente de grade de preço único </a></li>
+        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/single-price-grid-component/index.html">Single price grid component</a></li>
     </ul>
 </body>
-</html>
 
