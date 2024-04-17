@@ -1,7 +1,7 @@
 <body>
     <h1>Desafios Frontend Mentor</h1>
      <ul>
-        <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/qr-code-component/index.html" target="_blank" link rel"external">QR code component</a></li>
+        <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/qr-code-component/index.html">QR code component</a></li>
         <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/blog-preview-card/index.html">Blog preview card</a></li>
         <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/social-links-profile/index.html">Social links profile</a></li>
         <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/nft-preview-card-component/index.html">NFT preview card component</a></li>
