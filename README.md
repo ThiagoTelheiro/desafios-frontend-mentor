@@ -2,8 +2,8 @@
     <h1>Desafios Frontend Mentor</h1>
      <ul>
         <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/qr-code-component/index.html">QR code component</a></li>
-        <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/cartao-de-visualizacao-do-blog/index.html">Cartão de visualização do blog</a></li>
-        <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/social-links-profile/index.html">Perfil de links sociais</a></li>
+        <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/blog-preview-card/index.html">Blog preview card</a></li>
+        <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/social-links-profile/index.html">Social links profile</a></li>
         <li><a href ="https://thiagotelheiro.github.io/desafios-frontend-mentor/componente-do-cart%C3%A3o-de-visualiza%C3%A7%C3%A3o-nft/index.html">Componente do Cartão de Visualização</a></li>
         <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/pagina-de-receitas/index.html"> Página de receitas</a></li>
         <li><a href = "https://thiagotelheiro.github.io/desafios-frontend-mentor/order-summary-component/index.html#"> Componente de resumo do pedido</a></li>
