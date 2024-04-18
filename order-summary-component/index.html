@@ -8,28 +8,29 @@
     <title>Componente de resumo do pedido</title>
 </head>
 <body>
-    <main>
-        <figure>
-            <img src="images/illustration-hero.svg" alt="Hero img" class="first-img">
-        </figure>
+   <main>
+        <div>
+            <img src="images/illustration-hero.svg" alt="img" class="img-capa">
+        </div>
 
-        <section class="dados">
-            <h1>Order Summary</h1>
-            <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-        </section>
+        <div class="info">
 
-        <section class="plano">
-            <article class="annual-plan">
-                <img src="images/icon-music.svg" alt="music">
-                <p class="p">Annual Plan <span class="preco">$59.99/year</span></p>
-                <a href="#">Change</a>
-            </article>
+            <section class="text">
+                <h1>Order Summary</h1>
+                <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+            </section>
 
-            <article class="botoes">
+            <div class="assinatura">
+                <div class="plano">
+                    <img src="images/icon-music.svg" alt="icon-music" class="img-music">
+                    <p class="plan-anual">Annual Plan <span class="year">$59.99/year</span></p>
+                    <span class="change"><a href="">Change</a></span>
+                </div>
                 <button>Proceed to Payment</button>
-                <p class="link"><a href="#" class="link2">Cancel Order</a></p>
-            </article>
-        </section>
-    </main>
+                <span class="pay"><a href="#" class="cancel">Cancel Order</a></span>
+            </div>
+            
+        </div>
+   </main>
 </body>
 </html>
