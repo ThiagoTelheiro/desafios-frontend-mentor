@@ -74,6 +74,7 @@ body {
     border-radius: 8px;
     box-sizing: border-box;
     padding: 30px;
+    box-shadow: 2px 2px 15px var(--Very-Dark-Blue);
 }
 
 .cards .card-supervisor, .card-team, .card-karma, .card-cal, h2 {
@@ -94,7 +95,7 @@ img {
     align-self: flex-end;
     width: 65px;
     height: 64px;
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 .cards .card-supervisor {
