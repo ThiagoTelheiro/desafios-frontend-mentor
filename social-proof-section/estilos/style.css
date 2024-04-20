@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --font-League-Spartan:"League Spartan", Arial, Helvetica, sans-serif;
+
+    --Very-Dark-Magenta: #502050;
+    --Soft-Pink: #ee68a4;
+    --Dark-Grayish-Magenta: #937b92;
+    --Light-Grayish-Magenta: #f7f2f7;
+    --White: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: var(--White);
+    font-family: var(--font-League-Spartan);
+    padding: 117px 165px 0 165px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1110px;
+}
+
+.intro { 
+    max-width: 510px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    color: var(--Very-Dark-Magenta);
+}
+
+.intro-descricao {
+    font-size: 1.2em;
+    color: var(--Dark-Grayish-Magenta);
+    margin-top: 28px;
+    line-height: 25px;
+}
+
+.intro-avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+
+    max-width: 540px;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--Light-Grayish-Magenta);
+    width: 444px;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
