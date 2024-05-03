@@ -25,6 +25,7 @@ body {
     height: 100vh;
     font-family: var(--font-Kumbh-Sans);
     background-color: var(--Dark-cyan);
+    overflow: hidden;
 }
 
 .container {
@@ -32,6 +33,8 @@ body {
     width: 350px;
     height: 374px;
     border-radius: 13px;
+    position: absolute;
+    z-index: 1;
 }
 
 .image .img-fundo {
@@ -75,7 +78,7 @@ body {
 }
 
 .num {
-    border-top: 1px solid var(--Dark-gray);
+    border-top: 1px solid #96969662;
 }
 
 .num ul {
@@ -99,6 +102,19 @@ body {
     color: var(--Dark-gray);
     font-weight: 400;
     font-size: .6em;
+    letter-spacing: 2px;
+}
+
+.img-top{
+    position: absolute;
+    top: -550px;
+    left: -400px;
+}
+
+.img-bottom {
+    position: absolute;
+    bottom: -700px;
+    right: -300px;
 }
 
 
