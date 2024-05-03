@@ -107,14 +107,14 @@ body {
 
 .img-top{
     position: absolute;
-    top: -550px;
-    left: -400px;
+    top: -400px;
+    left: -250px;
 }
 
 .img-bottom {
     position: absolute;
-    bottom: -700px;
-    right: -300px;
+    bottom: -600px;
+    right: -225px;
 }
 
 
