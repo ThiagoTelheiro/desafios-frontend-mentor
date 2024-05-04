@@ -1,0 +1,117 @@
+@media screen and (max-width: 720px) {
+    :root {
+        --font-League-Spartan:"League Spartan", Arial, Helvetica, sans-serif;
+    
+        --Very-Dark-Magenta: #502050;
+        --Soft-Pink: #ee68a4;
+        --Dark-Grayish-Magenta: #937b92;
+        --Light-Grayish-Magenta: #f7f2f7;
+        --White: #ffffff;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "League Spartan", Arial, Helvetica, sans-serif;
+        padding: 80px 10px 99px 10px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .info h1 {
+        font-size: 2.5em;
+        text-align: center;
+        color: var(--Very-Dark-Magenta);
+        max-width: 300px;
+    }
+
+    .hero .info p {
+        font-size: 1.2em;
+        text-align: center;
+        color: var(--Dark-Grayish-Magenta);
+        line-height: 25px;
+        margin-top: 20px;
+        max-width: 370px;
+    }
+
+    .avaliacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avaliacao ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: 1.1em;
+        font-weight:700;
+        color: var(--Very-Dark-Magenta);
+        background-color: var(--Light-Grayish-Magenta);
+        border-radius: 10px;
+        padding: 20px;
+        height: 85px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 327px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cards .card {
+        background-color: var(--Very-Dark-Magenta);
+        width: 327px;
+        height: 288px;
+        border-radius: 8px;
+        padding: 40px;
+    }
+
+    .cards .card img {
+        width: 45px;
+        border-radius: 50%;
+    }
+
+    .cards .card .nome {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cards .card .nome2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 1em;
+        color: white;
+    }
+
+    .cards .card span {
+        color: var(--Soft-Pink);
+    }
+
+    .cards .card .nome-info {
+        font-size: 1em;
+        color: var(--White);
+        line-height: 25px;
+        margin-top: 40px;
+    }
+
+}
