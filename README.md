@@ -14,7 +14,8 @@
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/huddle-landing-page-with-a-single-introductory-section/index.html">Huddle landing page with a single introductory section</a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/profile-card-component/index.html"> Profile card component </a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/single-price-grid-component/index.html">Single price grid component</a></li>
-         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/four-card-feature-section/index.html">Four card feature section</a></li>
+        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/four-card-feature-section/index.html">Four card feature section</a></li>
+        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/social-proof-section/index.html">Social proof section</a></li>
     </ul>
 </body>
 
