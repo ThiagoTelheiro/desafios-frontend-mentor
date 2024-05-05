@@ -1,3 +1,5 @@
+@media screen and (min-width:800px) {
+    
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 :root {
@@ -17,4 +19,118 @@
     list-style: none;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    font-family: var(--font-League-Spartan);
+    padding: 70px;
+    
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .info h1 {
+    font-size: 2.5em;
+    text-align: left;
+    color: var(--Very-Dark-Magenta);
+    max-width: 300px;
+}
+        
+
+.hero .info p {
+    font-size: 1.1em;
+    text-align: left;
+    color: var(--Dark-Grayish-Magenta);
+    line-height: 30px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.avaliacao {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 90px;
+}
+
+.avaliacao ul li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1em;
+    font-weight:700;
+    color: var(--Very-Dark-Magenta);
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 10px;
+    padding: 20px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.avaliacao ul li:nth-child(1) {
+    margin-left: -50px;
+}
+
+.avaliacao ul li:nth-child(3) {
+    margin-left: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+
+    margin-top: 90px;
+}
+
+.cards .card {
+    background-color: var(--Very-Dark-Magenta);
+    width: 350px;
+    height: 234px;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.cards .card:nth-child(1) {
+    margin-top: -20px;
+}
+
+.cards .card:nth-child(3) {
+    margin-top: 20px;
+}
+
+.cards .card img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.cards .card .nome {
+    display: flex;
+    gap: 20px;
+}
+
+.cards .card .nome2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1em;
+    color: white;
+}
+
+.cards .card span {
+    color: var(--Soft-Pink);
+}
+
+.cards .card .nome-info {
+    font-size: .9em;
+    color: var(--White);
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+}
