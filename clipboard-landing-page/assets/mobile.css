@@ -1,0 +1,94 @@
+@media screen and (max-width: 480px ) {
+
+    :root {
+        --Strong-Cyan: #26baa4;
+        --Light-Blue: #6173ff;
+        --Dark-Grayish-Blue: #4c545d;
+        --Grayish-Blue: #9fabb2;
+
+        --font-Bai-Jamjuree: "Bai Jamjuree", sans-serif;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    body {
+        font-family: var(--font-Bai-Jamjuree);
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        background-position: top center;
+
+        min-height: 100vh;
+        padding: 30px;
+    }
+
+    .hero-img {
+        margin-top: 120px;
+        margin-bottom: 73px;
+    }
+
+    .hero-text h1 {
+        font-size: 2em;
+        font-weight: 600;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: .9em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 20px;
+        max-width: 350px;
+    }
+
+    .hero-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        margin-top: 40px;
+    }
+
+    .hero-button-ios { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--Strong-Cyan);
+        border-radius: 28px;
+        width: 311px;
+        height: 56px;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+
+    .hero-button-mac { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--Light-Blue);
+        border-radius: 28px;
+        width: 311px;
+        height: 56px;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+}
