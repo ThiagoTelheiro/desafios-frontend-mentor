@@ -1,0 +1,168 @@
+@media screen and (max-width: 600px ) {
+
+    :root {
+        --Strong-Cyan: #26baa4;
+        --Light-Blue: #6173ff;
+        --Dark-Grayish-Blue: #4c545d;
+        --Grayish-Blue: #9fabb2;
+
+        --font-Bai-Jamjuree: "Bai Jamjuree", sans-serif;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    body {
+        font-family: var(--font-Bai-Jamjuree);
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-image: url(../images/bg-header-mobile.png);
+        background-size: cover;
+        background-position: top center;
+
+        min-height: 100vh;
+        padding: 30px;
+    }
+
+    .hero-img {
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+
+    .hero-text h1 {
+        font-size: 2em;
+        font-weight: 600;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 1em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 20px;
+        max-width: 350px;
+    }
+
+    .hero-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        margin-top: 45px;
+    }
+
+    .hero-button-ios { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--Strong-Cyan);
+        border-radius: 28px;
+        width: 311px;
+        height: 56px;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+
+    .hero-button-ios:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    .hero-button-mac { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--Light-Blue);
+        border-radius: 28px;
+        width: 311px;
+        height: 56px;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    .hero-button-mac:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: white;
+        min-height: 100vh;
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .info-text h2 {
+        font-size: 1.8em;
+        font-weight: 600;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .info-text p {
+        font-size: 1em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        font-weight: 400;
+        line-height: 25px;
+        max-width: 350px;
+        margin-bottom: 60px;
+    }
+
+    .info-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-img img {
+        width: 400px;
+    }
+
+    .info-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        margin-top: 70px;
+    }
+
+    .list h3 {
+        font-size: 1.5em;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .list p {
+        font-size: 1em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        line-height: 25px;
+        max-width: 320px;
+        margin-bottom: 50px;
+    }
+}
