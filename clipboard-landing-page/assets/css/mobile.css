@@ -65,14 +65,15 @@
     }
 
     .hero-button-ios { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         background-color: var(--Strong-Cyan);
         border-radius: 28px;
         width: 311px;
         height: 56px;
         border: none;
-    }
-
-    .hero-button-ios a {
         font-size: 1.2em;
         text-align: center;
         font-weight: 500;
@@ -85,15 +86,15 @@
     }
 
     .hero-button-mac { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         background-color: var(--Light-Blue);
         border-radius: 28px;
         width: 311px;
         height: 56px;
-        margin-bottom: 40px;
         border: none;
-    }
-
-    .hero-button-mac a {
         font-size: 1.2em;
         text-align: center;
         font-weight: 500;
