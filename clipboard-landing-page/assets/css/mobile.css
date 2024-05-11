@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 480px ) {
 
     :root {
         --Strong-Cyan: #26baa4;
@@ -46,7 +46,7 @@
     }
 
     .hero-text p {
-        font-size: 1em;
+        font-size: 1.2em;
         color: var(--Grayish-Blue);
         text-align: center;
         font-weight: 400;
@@ -125,11 +125,11 @@
     }
 
     .info-text p {
-        font-size: 1em;
+        font-size: 1.2em;
         color: var(--Grayish-Blue);
         text-align: center;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         max-width: 350px;
         margin-bottom: 60px;
     }
@@ -160,10 +160,10 @@
     }
 
     .list p {
-        font-size: 1em;
+        font-size: 1.2em;
         color: var(--Grayish-Blue);
         text-align: center;
-        line-height: 25px;
+        line-height: 30px;
         max-width: 320px;
         margin-bottom: 25px;
     }
@@ -188,16 +188,193 @@
     }
 
     .acesso-text p {
-        font-size: 1em;
+        font-size: 1.2em;
         color: var(--Grayish-Blue);
         text-align: center;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         max-width: 320px;
         margin-bottom: 60px;
     }
 
     .acesso-img img {
         width: 340px;
+    }
+
+    .ferramentas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: white;
+        min-height: 100vh;
+        padding: 30px;
+    }
+
+    .ferramentas-text h2 {
+        font-size: 1.8em;
+        font-weight: 600;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ferramentas-text p {
+        font-size: 1.2em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+        max-width: 320px;
+        margin-bottom: 80px;
+    }
+
+    .ferramentas-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+        margin-bottom: 50px;
+    }
+
+    .f-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .f-list h3 {
+        font-size: 1.5em;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .f-list p {
+        font-size: 1.2em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        line-height: 30px;
+        max-width: 320px;
+        margin-bottom: 25px;
+    }
+
+    .ferramentas-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .download {
+        background-color: white;
+        min-height: 80vh;
+        padding: 30px;
+
+        margin-top: 50px;
+    }
+
+    .download-text h2 {
+        font-size: 1.8em;
+        font-weight: 600;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .download-text p {
+        font-size: 1.2em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+        max-width: 320px;
+        margin-bottom: 80px;
+    }
+
+    .download-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .download-button-ios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--Strong-Cyan);
+        border-radius: 28px;
+        width: 311px;
+        height: 56px;
+        border: none;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+
+    .download-button-mac {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--Light-Blue);
+        border-radius: 28px;
+        width: 311px;
+        height: 56px;
+        border: none;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        background-color: #9fabb222;
+        min-height: 60vh;
+    }
+
+    .footer-img img {
+        width: 70px;
+        margin-top: 60px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        margin-top: 20px;
+    }
+
+    .footer-links a {
+        font-size: 1.2em;
+        color: var(--Dark-Grayish-Blue);
+    }
+
+    .footer-redes-sociais {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .footer-redes-sociais img {
+        width: 30px;
     }
 }
