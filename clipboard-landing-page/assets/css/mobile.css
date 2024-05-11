@@ -65,14 +65,15 @@
     }
 
     .hero-button-ios { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         background-color: var(--Strong-Cyan);
         border-radius: 28px;
         width: 311px;
         height: 56px;
+        border: none;
+    }
+
+    .hero-button-ios a {
+        font-size: 1.2em;
         text-align: center;
         font-weight: 500;
         color: white;
@@ -84,18 +85,19 @@
     }
 
     .hero-button-mac { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         background-color: var(--Light-Blue);
         border-radius: 28px;
         width: 311px;
         height: 56px;
+        margin-bottom: 40px;
+        border: none;
+    }
+
+    .hero-button-mac a {
+        font-size: 1.2em;
         text-align: center;
         font-weight: 500;
         color: white;
-        margin-bottom: 50px;
     }
 
     .hero-button-mac:hover {
@@ -111,7 +113,7 @@
         background-color: white;
         min-height: 100vh;
         padding: 30px;
-        margin-top: 50px;
+        margin-top: 5px;
     }
 
     .info-text h2 {
@@ -138,7 +140,7 @@
     }
 
     .info-img img {
-        width: 350px;
+        width: 330px;
     }
 
     .info-list {
@@ -147,7 +149,7 @@
         align-items: center;
         gap: 40px;
 
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     .list h3 {
@@ -163,6 +165,39 @@
         text-align: center;
         line-height: 25px;
         max-width: 320px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+    }
+
+    .acesso {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: white;
+        min-height: 100vh;
+        padding: 30px;
+    }
+
+    .acesso-text h2 {
+        font-size: 1.8em;
+        font-weight: 600;
+        color: var(--Dark-Grayish-Blue);
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .acesso-text p {
+        font-size: 1em;
+        color: var(--Grayish-Blue);
+        text-align: center;
+        font-weight: 400;
+        line-height: 25px;
+        max-width: 320px;
+        margin-bottom: 60px;
+    }
+
+    .acesso-img img {
+        width: 340px;
     }
 }
