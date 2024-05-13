@@ -16,6 +16,7 @@
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/single-price-grid-component/index.html">Single price grid component</a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/four-card-feature-section/index.html">Four card feature section</a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/social-proof-section/index.html">Social proof section</a></li>
+        <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/clipboard-landing-page/index.html#">Clipboard landing page</a></li>
     </ul>
 </body>
 
