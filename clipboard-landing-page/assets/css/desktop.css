@@ -1,5 +1,4 @@
-@media screen and (max-width: 720px ) {
-
+@media screen and (min-width: 900px) {
     :root {
         --Strong-Cyan: #26baa4;
         --Light-Blue: #6173ff;
@@ -23,6 +22,7 @@
     .hero {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
 
         background-image: url(../images/bg-header-mobile.png);
@@ -30,18 +30,11 @@
         background-position: top center;
 
         min-height: 100vh;
-        padding: 30px;
+        padding: 50px;
     }
 
     .hero-img {
-        margin-top: 70px;
         margin-bottom: 60px;
-    }
-
-    .hero-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .hero-text h1 {
@@ -49,7 +42,6 @@
         font-weight: 600;
         color: var(--Dark-Grayish-Blue);
         text-align: center;
-        max-width: 400px;
     }
 
     .hero-text p {
@@ -59,16 +51,15 @@
         font-weight: 400;
         line-height: 30px;
         margin-top: 20px;
-        max-width: 350px;
+        max-width: 600px;
     }
 
     .hero-button {
         display: flex;
-        flex-direction: column;
         align-items: center;
         gap: 30px;
 
-        margin-top: 45px;
+        margin-top: 60px;
     }
 
     .hero-button-ios { 
@@ -121,11 +112,11 @@
         background-color: white;
         min-height: 100vh;
         padding: 30px;
-        margin-top: 5px;
+        margin-top: 35px;
     }
 
     .info-text h2 {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 600;
         color: var(--Dark-Grayish-Blue);
         text-align: center;
@@ -138,41 +129,44 @@
         text-align: center;
         font-weight: 400;
         line-height: 30px;
-        max-width: 350px;
+        max-width: 730px;
         margin-bottom: 60px;
     }
 
-    .info-img {
+    .info-flex { 
         display: flex;
-        justify-content: center;
+        gap: 600px;
+
+        margin-top: 20px;
     }
 
-    .info-img img {
-        max-width: 330px;
+    .info-img img { 
+        position: absolute;
+        left: -100px;
     }
 
     .info-list {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 40px;
+        align-items: flex-start;
+        gap: 30px;
 
         margin-top: 60px;
+        margin-left: 70px;
+        position: relative;
     }
 
     .list h3 {
         font-size: 1.5em;
         color: var(--Dark-Grayish-Blue);
-        text-align: center;
         margin-bottom: 15px;
     }
 
     .list p {
-        font-size: 1.2em;
+        font-size: 1em;
         color: var(--Grayish-Blue);
-        text-align: center;
         line-height: 30px;
-        max-width: 320px;
+        max-width: 400px;
         margin-bottom: 25px;
     }
 
@@ -185,17 +179,11 @@
         background-color: white;
         min-height: 100vh;
         padding: 30px;
-    }
-
-    
-    .acesso-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-top: 70px;
     }
 
     .acesso-text h2 {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 600;
         color: var(--Dark-Grayish-Blue);
         text-align: center;
@@ -208,12 +196,8 @@
         text-align: center;
         font-weight: 400;
         line-height: 30px;
-        max-width: 320px;
+        max-width: 750px;
         margin-bottom: 60px;
-    }
-
-    .acesso-img img {
-        max-width: 340px;
     }
 
     .ferramentas {
@@ -227,7 +211,7 @@
     }
 
     .ferramentas-text h2 {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 600;
         color: var(--Dark-Grayish-Blue);
         text-align: center;
@@ -240,13 +224,14 @@
         text-align: center;
         font-weight: 400;
         line-height: 30px;
-        max-width: 320px;
+        max-width: 750px;
         margin-bottom: 80px;
     }
 
     .ferramentas-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: flex;
+        justify-content: center;
         align-items: center;
         gap: 50px;
 
@@ -268,7 +253,7 @@
     }
 
     .f-list p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: var(--Grayish-Blue);
         text-align: center;
         line-height: 30px;
@@ -276,9 +261,14 @@
         margin-bottom: 25px;
     }
 
+    .list1 {
+        margin-top: 20px;
+    }
+
     .ferramentas-logo {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: flex;
         align-items: center;
         gap: 80px;
 
@@ -287,27 +277,23 @@
     }
 
     .download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         background-color: white;
-        min-height: 80vh;
+        min-height: 60vh;
         padding: 30px;
 
         margin-top: 50px;
     }
 
-    
-    .download-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .download-text h2 {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 600;
         color: var(--Dark-Grayish-Blue);
         text-align: center;
         margin-bottom: 20px;
-        max-width: 350px;
     }
 
     .download-text p {
@@ -316,17 +302,16 @@
         text-align: center;
         font-weight: 400;
         line-height: 30px;
-        max-width: 320px;
+        max-width: 600px;
         margin-bottom: 80px;
     }
 
     .download-button {
         display: flex;
-        flex-direction: column;
         align-items: center;
         gap: 30px;
 
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .download-button-ios {
@@ -344,7 +329,7 @@
         font-weight: 500;
         color: white;
     }
-
+    
     .download-button-ios:hover {
         transform: scale(1.05);
         transition-duration: .4s;
@@ -373,44 +358,48 @@
 
     footer {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
+        gap: 40px;
 
-        background-color:  #9fabb234 ;
-        min-height: 60vh;
-        padding: 50px;
+        background-color: #9fabb222;
+        min-height: 100px;
     }
 
     .footer-img img {
-        width: 60px;
-        margin-top: 50px;
+        width: 50px;
     }
 
     .footer-links {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        gap: 60px;
 
-        margin-top: 40px;
+        max-width: 600px;
+        margin-left: -200px;
     }
 
     .footer-links a {
-        font-size: 1.2em;
+        font-size: 1em;
         color: var(--Dark-Grayish-Blue);
-        margin-bottom: 20px;
     }
 
     .links-flex-1 {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        gap: 15px;
     }
 
     .footer-redes-sociais {
         display: flex;
-        align-items: center;
+        justify-content: center;
         gap: 30px;
 
-        margin-top: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
+
+    .footer-redes-sociais img {
+        width: 30px;
+    }
+
 }
