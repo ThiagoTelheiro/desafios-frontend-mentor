@@ -138,6 +138,12 @@
         padding-bottom: 0px;
     }
 
+    .card-grow, .card-user {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
     .card-grow h2, .card-flow h2, .card-user h2 {
         font: 1.5em;
         color: var(--Very-Dark-Cyan);
