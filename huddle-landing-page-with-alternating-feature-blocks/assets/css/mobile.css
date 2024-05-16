@@ -179,9 +179,10 @@
 
     .flex-ready p {
         font-family: var(--font-Open-Sans);
-        font-size: 1.4em;
-        font-weight: 700;
+        font-size: 1.1em;
+        font-weight: 750;
         color: var(--Very-Dark-Cyan);
+        max-width: 300px;
     }
 
     .flex-ready button {
@@ -204,6 +205,45 @@
         background-color: var(--Very-Dark-Cyan);
         min-height: 80vh;
         padding: 170px 20px 20px 20px;
+        color: var(--Very-Pale-Cyan);
+    }
+
+    .footer-logo span {
+        font-family: var(--font-Poppins);
+        font-size: 2em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        margin-top: 25px;
+        font-family: var(--font-Open-Sans);
+    }
+
+    .contato-text {
+        display: flex;
+        gap: 20px;
+    }
+
+    .contato-img img {
+        margin-top: 6px;
+    }
+
+    .contato-links {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 40px;
+    }
+
+    .contato-links a {
+        font-family: var(--font-Poppins);
+        color: var(--Very-Pale-Cyan);
+        text-decoration: none;
     }
 
 }
