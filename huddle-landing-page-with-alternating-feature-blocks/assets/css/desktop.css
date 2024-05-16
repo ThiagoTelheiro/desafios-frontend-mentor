@@ -1,0 +1,301 @@
+@media screen and (min-width: 900px) {
+
+    :root {
+        --Pink: #ff52bf;
+        --Very-Pale-Cyan: #ebfbff;
+        --Very-Dark-Cyan: #00252e;
+        --Grayish-Blue: #808d99;
+
+        --font-Poppins: "Poppins", sans-serif; 
+        --font-Open-Sans: "Open Sans", sans-serif;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero {
+        background-color: var(--Very-Pale-Cyan);
+        background-image: url(../images/bg-hero-desktop.svg);
+        background-size: cover;
+        background-position: top top;
+        font-family: var(--font-Open-Sans);
+        padding: 30px;
+        min-height: 100vh;
+    }
+
+    .hero-header {
+        display: flex;
+        justify-content: space-between;
+        
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .header-img img {
+        width: 150px;
+    }
+
+    .header-button button {
+        background-color: white;
+        width: 170px;
+        height: 40px;
+        border: none;
+        border-radius: 23px;
+        box-shadow:  0 0 10px rgba(0, 0, 0, 0.181);
+        font-size: .9em;
+        font-weight: 700;
+        color: var(--Very-Dark-Cyan);
+    }
+
+    .header-button button:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    .hero-ped {
+        padding: 20px;
+    }
+
+    .hero-text-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .hero-text  {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 90px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.1em;
+        color: var(--Very-Dark-Cyan);
+        max-width: 400px;
+    }
+
+    .hero-text p {
+        font-size: 1.1em;
+        color: var(--Very-Dark-Cyan);
+        text-align: start;
+        max-width: 500px;
+        margin-top: 40px;
+    }
+
+    .hero-text button {
+        width: 250px;
+        height: 50px;
+        border-radius: 39px;
+        border: none;
+        background-color: var(--Pink);
+        font-size: 1em;
+        font-weight: 600;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .hero-text button:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    .hero-img img {
+        max-width: 600px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+        background-color: rgba(245, 245, 245, 0.24);
+        min-height: 100vh;
+        padding: 60px;
+        padding-bottom: 0px;
+    }
+
+    .card-grow, .card-flow, .card-user{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 30px;
+
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(211, 211, 211, 0.732);
+        min-width: 80vw;
+        height: 350px;
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+
+    .card-grow, .card-user {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+
+    .card-grow h2, .card-flow h2, .card-user h2 {
+        font: 1.5em;
+        color: var(--Very-Dark-Cyan);
+        margin-top: 80px;
+    }
+
+    .card-grow p, .card-flow p, .card-user p {
+        font-family: var(--font-Poppins);
+        font-size: 1em;
+        color: var(--Grayish-Blue);
+        line-height: 25px;
+        margin-top: 30px;
+        max-width: 500px;
+    }
+
+    .card-grow img, .card-flow img, .card-user img {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .flex-ready {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(211, 211, 211, 0.732);
+        max-width: 50vw;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;
+        bottom: -100px;
+    }
+
+    .flex-ready p {
+        font-family: var(--font-Open-Sans);
+        font-size: 1.1em;
+        font-weight: 750;
+        text-align: center;
+        color: var(--Very-Dark-Cyan);
+        max-width: 300px;
+    }
+
+    .flex-ready button {
+        width: 270px;
+        height: 50px;
+        border-radius: 39px;
+        border: none;
+        background-color: var(--Pink);
+        font-size: 1em;
+        font-weight: 600;
+        color: white;
+    }
+
+    .flex-ready button:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    footer {
+        background-color: var(--Very-Dark-Cyan);
+        padding: 150px 50px 50px 50px;
+        color: var(--Very-Pale-Cyan);
+    }
+
+    .footer-logo span {
+        font-family: var(--font-Poppins);
+        font-size: 2em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .flex-desk {
+        display: flex;
+        gap: 200px;
+    }
+
+    .flex-footer {
+        display: flex;
+        gap: 200px;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        margin-top: 25px;
+        font-family: var(--font-Open-Sans);
+    }
+
+    .contato-text {
+        display: flex;
+        gap: 20px;
+    }
+
+    .email p {
+        max-width: 350px;
+    }
+
+    .contato-img img {
+        margin-top: 6px;
+    }
+
+    .contato-links {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+        margin-top: 22px;
+    }
+
+    .contato-links a {
+        font-family: var(--font-Poppins);
+        color: var(--Very-Pale-Cyan);
+        text-decoration: none;
+    }
+
+    .contato-links-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+        margin-bottom: 15px;
+    }
+
+    .contato-redes {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+        margin-top: 70px;
+    }
+
+    .contato-redes  img {
+        width: 35px;
+    }
+
+    .copy {
+        font-family: var(--font-Poppins);
+        font-size: .8em;
+        text-align: end;
+        margin-top: 25px;
+    }
+
+}
