@@ -259,14 +259,18 @@
         justify-content: center;
         gap: 15px;
 
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+
+    .contato-redes  img {
+        width: 35px;
     }
 
     .copy {
         font-family: var(--font-Poppins);
         font-size: .8em;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: 20px;
     }
 
