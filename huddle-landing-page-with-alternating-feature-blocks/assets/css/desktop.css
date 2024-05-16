@@ -31,7 +31,7 @@
         background-position: top top;
         font-family: var(--font-Open-Sans);
         padding: 30px;
-        min-height: 100vh;
+        min-height: 40vh;
     }
 
     .hero-header {
