@@ -21,6 +21,10 @@
     }
 
     .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         background-color: var(--Very-Pale-Cyan);
         background-image: url(../images/bg-hero-desktop.svg);
         background-size: cover;
