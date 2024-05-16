@@ -187,6 +187,7 @@
         font-family: var(--font-Open-Sans);
         font-size: 1.1em;
         font-weight: 750;
+        text-align: center;
         color: var(--Very-Dark-Cyan);
         max-width: 300px;
     }
