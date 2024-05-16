@@ -246,4 +246,28 @@
         text-decoration: none;
     }
 
+    .contato-links-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+        margin-bottom: 15px;
+    }
+
+    .contato-redes {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+        margin-top: 20px;
+    }
+
+    .copy {
+        font-family: var(--font-Poppins);
+        font-size: .8em;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
