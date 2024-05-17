@@ -57,5 +57,230 @@
         transition-duration: .4s;
     }
 
+    .hero-ped {
+        padding: 0 82px 53px 82px;
+    }
+
+    .hero-text-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+
+        margin-top: 71px;
+    }
+
+    .hero-text  {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 90px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.2em;
+        color: var(--Very-Dark-Cyan);
+        max-width: 380px;
+    }
+
+    .hero-text p {
+        font-size: 1.1em;
+        color: var(--Very-Dark-Cyan);
+        line-height: 25px;
+        max-width: 550px;
+        margin-top: 40px;
+    }
+
+    .hero-text button {
+        width: 280px;
+        height: 50px;
+        border-radius: 39px;
+        border: none;
+        background-color: var(--Pink);
+        font-size: 1em;
+        font-weight: 600;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .hero-text button:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    .hero-img img {
+        max-width: 680px;
+        max-height: 482px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        background-color: rgba(245, 245, 245, 0.24);
+        min-height: 100vh;
+        padding: 150px 100px 0 100px;
+    }
+
+    .card-grow, .card-flow, .card-user{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 160px;
+
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(211, 211, 211, 0.732);
+        min-width: 1220px;
+        height: 430px;
+        padding: 0 38px 0 110px;
+    }
+
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        max-width: 482px;
+    }
+
+    .card-grow h2, .card-flow h2, .card-user h2 {
+        font: 1.5em;
+        color: var(--Very-Dark-Cyan);
+    }
+
+    .card-grow p, .card-flow p, .card-user p {
+        font-family: var(--font-Poppins);
+        font-size: 1em;
+        color: var(--Grayish-Blue);
+        line-height: 27px;
+        
+    }
+
+    .card-grow img, .card-flow img, .card-user img {
+        width: 400px;
+    }
+
+    .flex-ready {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(211, 211, 211, 0.732);
+        max-width: 800px;
+        height: 275px;
+        margin: 0 auto;
+        position: relative;
+        bottom: -100px;
+    }
+
+    .flex-ready p {
+        font-family: var(--font-Open-Sans);
+        font-size: 1.9em;
+        font-weight: 700;
+        color: var(--Very-Dark-Cyan);
+    }
+
+    .flex-ready button {
+        width: 380px;
+        height: 70px;
+        border-radius: 39px;
+        border: none;
+        background-color: var(--Pink);
+        font-size: 1.3em;
+        font-weight: 600;
+        color: white;
+    }
+
+    .flex-ready button:hover {
+        transform: scale(1.05);
+        transition-duration: .4s;
+    }
+
+    footer {
+        background-color: var(--Very-Dark-Cyan);
+        max-height: 563;
+        padding: 170px 119px 60px 119px;
+        color: var(--Very-Pale-Cyan);
+    }
+
+    .footer-logo span {
+        font-family: var(--font-Poppins);
+        font-size: 2.5em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .flex-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-top: 40px;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        font-family: var(--font-Open-Sans);
+    }
+
+    .contato-text {
+        display: flex;
+        gap: 20px;
+    }
+
+    .email p {
+        max-width: 350px;
+    }
+
+    .contato-img img {
+        margin-top: 6px;
+    }
+
+    .contato-links {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .contato-links a {
+        font-family: var(--font-Poppins);
+        color: var(--Very-Pale-Cyan);
+        text-decoration: none;
+    }
+
+    .contato-links-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contato-redes {
+        display: flex;
+        gap: 15px;
+    }
+
+    .contato-redes  img {
+        width: 35px;
+    }
+
+    .copy {
+        font-family: var(--font-Poppins);
+        font-size: .8em;
+        text-align: end;
+        margin-top: 35px;
+    }
+
 
 }
