@@ -160,7 +160,7 @@
         font-size: 1em;
         color: var(--Very-Dark-Blue);
         line-height: 25px;
-        max-width: 400px;
+        max-width:380px;
     }
 
     .info-text span a {
