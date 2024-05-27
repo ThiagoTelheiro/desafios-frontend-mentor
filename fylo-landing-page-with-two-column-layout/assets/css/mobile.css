@@ -225,7 +225,7 @@
         background-color: var(--Desaturated-Blue);
         font-family: var(--Raleway);
         height: 500px;
-        padding: 60px;
+        padding: 30px;
     }
 
     .access-text h3 {
@@ -258,8 +258,6 @@
         height: 45px;
         border: none;
         border-radius: 5px;
-        padding: 15px 0px 15px 15px;
-        margin-bottom: 20px;
         box-shadow: 1px 1px 10px 1px var(--Very-Dark-Blue);
     }
 
