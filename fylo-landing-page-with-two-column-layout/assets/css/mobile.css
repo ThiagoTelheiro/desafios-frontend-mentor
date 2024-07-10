@@ -81,4 +81,8 @@
         text-align: center;
         max-width: 370px;
     }
+
+    .hero-text form {
+        display: flex;
+    }
 }
