@@ -1,4 +1,4 @@
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
 
     :root {
        --Very-Dark-Blue: #070439;
@@ -21,68 +21,50 @@
     }
 
     body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-
-        font-family: var(--Raleway);
         padding: 20px;
     }
 
-    .header-img img {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        font-family: var(--Open-Sans);
+        padding-bottom: 90px;
+    }
+
+    .cabecalho__logo {
+        display: flex
+    }
+
+    .cabecalho__logo img {
         width: 100px;
     }
 
-    .header-links ul {
+    .cabecalho__nav-lista {
         display: flex;
-        gap: 20px;
-    }
-
-    .header-links a {
-        font-weight: 500;
-        color: var(--Very-Dark-Blue);
-    }
-
-    .hero-flex {
-        display: flex;
-        flex-direction: column-reverse;
         align-items: center;
-
-        padding: 25px;
-        margin-top: 80px;
+        gap: 15px;
+        height: 100%;
     }
-
-    .hero-img img {
-        width: 400px;
-    }
-
-    .hero-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-    }
-
-    .hero-text h1 {
-        font-size: 2em;
+    
+    .cabecalho__nav-lista  a {
         color: var(--Very-Dark-Blue);
-        max-width: 400px;
-        text-align: center;
-        margin-top: 50px;
+        width: 500px;
+        font-size: 1rem;
     }
 
-    .hero-text p {
-        font-size: 1.1em;
-        color: var(--Very-Dark-Blue);
+    .hero {
+        font-family: var(--Open-Sans);
         text-align: center;
-        max-width: 370px;
     }
 
-    .hero-text form {
-        display: flex;
+    .hero__image img {
+        width: 350px;
+        padding-bottom: 40px;
     }
+
+    .hero__text h1 {
+        font-size: 1.80rem;
+        padding-bottom: 20px;
+    }
+
 }
