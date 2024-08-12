@@ -19,6 +19,8 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--Light-Grayish-Blue);
     padding: 20px;
 }
 
@@ -136,4 +138,57 @@ body {
     border-bottom: 1px solid var(--Moderate-Cyan);
     color: var(--Moderate-Cyan);
     font-family: var(--Open-Sans);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card__info {
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    text-align: start;
+    padding: 20px;
+}
+
+.card__info img {
+    justify-content: flex-start;
+    width: 20px;
+    border-radius: 50%;
+    font-family: var(--Open-Sans);
+    margin-bottom: 5px;
+}
+
+.card__info-text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--Very-Dark-Blue);
+    line-height: 20px;
+}
+
+.card__perfil {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.card__perfil img{
+    width: 35px
+}
+
+.card__perfil-text {
+    font-size: .9rem;
+}
+
+.card__perfil-name {
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.card__perfil-prof {
+    font-size: .6rem;
+    color: var(--Desaturated-Blue);
 }
