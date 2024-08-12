@@ -21,14 +21,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--Light-Grayish-Blue);
-    padding: 20px;
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
     font-family: var(--Open-Sans);
-    padding-bottom: 90px;
+    padding: 20px 20px 90px 20px;
+
 }
 
 .cabecalho__logo {
@@ -55,6 +55,7 @@ body {
 .hero {
     font-family: var(--Open-Sans);
     text-align: center;
+    padding: 20px;
 }
 
 .hero__image img {
@@ -100,6 +101,7 @@ body {
 
 .info {
     text-align: center;
+    padding: 20px;
 }
 
 .info__image img {
@@ -143,6 +145,7 @@ body {
 .card {
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 .card__info {
@@ -151,6 +154,7 @@ body {
     border-radius: 10px;
     text-align: start;
     padding: 20px;
+    box-shadow: 0 0 30px var(--Light-Gray) ;
 }
 
 .card__info img {
@@ -191,4 +195,85 @@ body {
 .card__perfil-prof {
     font-size: .6rem;
     color: var(--Desaturated-Blue);
+}
+
+.acesso {
+    background-color: var(--Desaturated-Blue);
+    color: white;
+    font-family: var(--Open-Sans);
+    height: 40vh;
+    padding: 30px;
+    text-align: center;
+    font-family: var(--Open-Sans);
+}
+
+.acesso h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.acesso p {
+    font-size: .9rem;
+    line-height: 22px;
+    margin-top: 20px;
+    color: var(--Light-Grayish-Blue);
+}
+
+.acesso__formulario {
+    margin-top: 20px;
+}
+
+.acesso__formulario-email {
+    width: 85%;
+    height: 40px;
+    padding-left: 10px ;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.acesso__formulario-email::placeholder {
+    color: var(--Light-Gray);
+}
+
+.acesso__formulario-bnt {
+    width: 85%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    border: none;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.rodape {
+    background-color: var(--Very-Dark-Blue);
+    height: 80vh;
+    padding: 30px;
+    font-family: var(--Open-Sans);
+    color: white;
+}
+
+.rodape__logo {
+    margin: 25px 0;
+}
+
+.rodape__links-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.rodape__links-contato li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rodape__links-midias {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
