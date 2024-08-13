@@ -1,5 +1,13 @@
 @media (min-width: 600px) {
 
+    .cabecalho {
+        padding: 40px;
+    }
+
+    .hero {
+        padding: 40px;
+    }
+
     .formulario {
         display: flex;
         gap: 10px;
@@ -11,6 +19,10 @@
 
     .formulario__bnt {
         width: 40%;
+    }
+
+    .info {
+        padding: 40px;
     }
 
     .info__text h1 {
@@ -30,6 +42,7 @@
         flex-direction: column;
         justify-content: center;
         height: 30vh;
+        padding: 40px;
     }
 
     .acesso h2 {
@@ -55,6 +68,7 @@
 
     .rodape {
         height: 47vh;
+        padding: 40px;
     }
 
     .rodape__flex {
