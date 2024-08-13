@@ -75,23 +75,5 @@
         width: 40%;
     }
 
-    .rodape {
-        height: 47vh;
-        padding: 40px;
-    }
-
-    .rodape__flex {
-        display: flex;
-        justify-content: space-between;
-        padding-right: 50px;
-    }
-
-    .rodape__contatos {
-        align-self: flex-start;
-    }
-
-    .rodape__links {
-        display: flex;
-        flex-direction: row
-    }
+    
 }

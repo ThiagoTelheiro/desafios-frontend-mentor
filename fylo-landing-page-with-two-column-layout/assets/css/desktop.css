@@ -127,5 +127,19 @@
 
     .rodape {
         display: flex;
+        justify-content: space-between;
+        height: 40vh;
+    }
+
+    .rodape__links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .rodape__links-redes {
+        padding-right: 150px;
+        margin-top: 50px;
     }
 }
