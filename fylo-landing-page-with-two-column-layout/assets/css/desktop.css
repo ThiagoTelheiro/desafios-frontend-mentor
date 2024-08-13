@@ -19,6 +19,7 @@
         background-color: white;
         height: 70vh;
         gap: 100px;
+        padding: 140px;
     }
 
     .hero__image img {
