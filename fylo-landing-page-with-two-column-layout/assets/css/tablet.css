@@ -2,27 +2,36 @@
 
     .cabecalho {
         padding: 40px;
+        background-color: white;
     }
 
     .hero {
         padding: 40px;
+        background-color: white;
     }
 
     .formulario {
         display: flex;
+        justify-content: center;
         gap: 10px;
     }
     
     .formulario__email {
-        width: 60%;
+        width: 500px;
     }
 
     .formulario__bnt {
-        width: 40%;
+        width: 350px
     }
 
     .info {
         padding: 40px;
+    }
+
+    .info__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .info__text h1 {

@@ -1,3 +1,131 @@
-@media (min-with: 1200px) {
+@media (min-width: 1200px) {
 
+    .cabecalho {
+        background-color: white;
+    }
+
+    .cabecalho__logo img {
+        width: 110px;
+    } 
+
+    .cabecalho__nav-lista a {
+        font-size: 1rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: white;
+        height: 70vh;
+        gap: 100px;
+    }
+
+    .hero__image img {
+        padding-right: 100px;
+    }
+
+    .hero__flex {
+        width: 100%;
+    }
+
+    .hero__text {
+        text-align: start;
+        font-family: var(--Raleway);
+        max-width: 700px;
+    }
+
+    .hero__text h1 {
+        font-size: 2.7rem;
+    }
+
+    .hero__text p {
+        font-size: 1.2rem;
+    }
+
+    .hero__image img {
+        width: 650px;
+    }
+
+    .formulario {
+        display: flex;
+        justify-content: flex-start;
+        height: 45px;
+    }
+
+    .formulario__email {
+        width: 380px;
+    }
+
+    .formulario__bnt {
+        width: 250px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .info__flex {
+        width: 100%;
+    }
+
+    .info__text {
+        display: block;
+        text-align: start;
+        max-width: 550px;
+        font-family: var(--Raleway);
+    }
+
+    .info__text h1 {
+        font-size: 2rem;
+    }
+
+    .info__text p {
+        font-size: .9rem;
+    }
+
+    .link__fylo {
+        display: block;
+        max-width: 180px;
+    }
+    
+    .card {
+        display: block;
+    }
+
+    .info__image img  {
+        width: 700px;
+        padding-right: 200px;
+    }
+
+    .acesso {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 250px;
+    }
+
+    .acesso__text {
+        max-width: 500px;
+        text-align: start;
+    }
+
+    .acesso__formulario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acesso__formulario-email {
+        width: 500px;
+    }
+
+    .acesso__formulario-bnt {
+        margin-top: -40px;
+    }
+
+    .rodape {
+        display: flex;
+    }
 }
