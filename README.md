@@ -18,7 +18,6 @@
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/social-proof-section/index.html">Social proof section</a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/clipboard-landing-page/index.html#">Clipboard landing page</a></li>
         <li><a href="https://thiagotelheiro.github.io/desafios-frontend-mentor/huddle-landing-page-with-alternating-feature-blocks/index.html">Huddle landing page with alternating feature blocks</a></li>
-        <li><a href="">Fylo landing page with two column layout</a></li>
     </ul>
 </body>
 
