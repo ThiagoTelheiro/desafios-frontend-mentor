@@ -1,0 +1,74 @@
+@media (min-width: 600px) {
+
+    .formulario {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .formulario__email {
+        width: 60%;
+    }
+
+    .formulario__bnt {
+        width: 40%;
+    }
+
+    .info__text h1 {
+        font-size: 1.7rem;
+    }
+
+    .info__text p {
+        font-size: 1rem;
+    }
+
+    .card__info {
+        width: 370px;
+    }
+
+    .acesso {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+    }
+
+    .acesso h2 {
+        font-size: 1.5rem;
+    }
+
+    .acesso p {
+        font-size: .9rem;
+    }
+
+    .acesso__formulario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .acesso__formulario-email {
+        width: 60%;
+    }
+
+    .acesso__formulario-bnt {
+        width: 40%;
+    }
+
+    .rodape {
+        height: 47vh;
+    }
+
+    .rodape__flex {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 50px;
+    }
+
+    .rodape__contatos {
+        align-self: flex-start;
+    }
+
+    .rodape__links {
+        display: flex;
+        flex-direction: row
+    }
+}

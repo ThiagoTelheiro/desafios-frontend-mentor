@@ -229,6 +229,7 @@ body {
     padding-left: 10px ;
     margin-bottom: 10px;
     border-radius: 3px;
+    border: none;
 }
 
 .acesso__formulario-email::placeholder {
@@ -248,7 +249,7 @@ body {
 
 .rodape {
     background-color: var(--Very-Dark-Blue);
-    height: 80vh;
+    height: 75vh;
     padding: 30px;
     font-family: var(--Open-Sans);
     color: white;
@@ -258,22 +259,40 @@ body {
     margin: 25px 0;
 }
 
-.rodape__links-contato {
+.rodape__contatos {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-.rodape__links-contato li {
+.rodape__contatos li {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.rodape__links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.rodape__links-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape__links-info a {
+    color: white;
+    font-size: 1.1rem;
 }
 
 .rodape__links-midias {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top: 40px;
 }
