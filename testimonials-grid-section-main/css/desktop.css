@@ -1,0 +1,62 @@
+@media (min-width: 1200px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main {
+        width: 1110px;
+        height: 572px;
+
+        display: grid;
+        grid-template-columns: repeat(4, 255px);
+        grid-template-rows: 282px 265px;
+        grid-template-areas:
+            "daniel daniel Jonathan kira"
+            "jeanette patrick patrick kira";
+        gap: 30px;
+    }
+
+    .daniel {
+        grid-area: daniel;
+        width: 540px;
+        height: 282px;
+    }
+
+    .Jonathan {
+        grid-area: Jonathan;
+        width: 254px;
+        height: 282px;
+    }
+
+    .kira {
+        grid-area: kira;
+        width: 254px;
+        height: 572px;
+    }
+
+    .jeanette {
+        grid-area: jeanette;
+        width: 254px;
+        height: 262px;
+
+    }
+
+    .patrick {
+        grid-area: patrick;
+        width: 540px;
+        height: 262px;
+    }
+
+    .feedback__titulo {
+        font-size: 17px;
+    }
+    
+    .feedback__descricao {
+        font-size: 14px;
+    }
+    
+}

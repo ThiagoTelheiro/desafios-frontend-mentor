@@ -17,4 +17,93 @@
 
 body {
     font-family: var(--font-Barlow-Semi-Condensed);
+    background-color: var(--Light-gray);
+    margin: 70px 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.daniel {
+    background-color: var(--Moderate-violet);
+}
+
+.Jonathan {
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.jeanette, .kira {
+    background-color: var(--White);
+}
+
+.jeanette .text__name, .kira .text__name {
+    color: var(--Very-dark-blackish-blue);
+}
+
+.jeanette .feedback__titulo, .kira .feedback__titulo {
+    color: var(--Very-dark-blackish-blue);
+}
+
+.jeanette .feedback__descricao, .kira .feedback__descricao {
+    color: var(--Very-dark-grayish-blue);
+}
+
+.jeanette .text__verificado, .kira .text__verificado {
+    color: var(--Very-dark-grayish-blue);
+}
+
+.patrick {
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+.card {
+    padding: 22px 32px 32px 32px ;
+    border-radius: 7px;
+    width: 327px;
+}
+
+.card__perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.card__perfil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.perfil__text {
+    font-weight: 500;
+}
+
+.text__name {
+    font-size: 13px;
+    color: var(--White);
+}
+
+.text__verificado {
+    color: var(--Light-gray);
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.feedback__titulo {
+    color: var(--White);
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.feedback__descricao {
+    font-size: 16px;
+    color: var(--Light-gray);
 }
